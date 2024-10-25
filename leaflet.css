@@ -1,0 +1,38 @@
+
+#map {
+    height: 100vh;
+    width: 75vw;
+    float: left;
+}
+
+
+#sidebar {
+    height: 100vh;
+    width: 25vw;
+    float: right;
+    background: #f8f9fa;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.pin-item {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.pin-item:hover {
+    background-color: #e9ecef;
+}
